@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Theme Clone</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=docs" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-</head>
+
+
     <style>
     body {
         font-family: 'Poppins', sans-serif;
@@ -113,20 +114,77 @@
 
 
 
-</head>
-<body>
-    <!-- Navbar -->
-    <header id="navbar">
-        <!--othniel work-->
-    </header>
+   
+    </head>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <!-- othniel work-->
-    </section>
+
+    <body>
+        <nav class="navbar navbar-expand-lg is-navbar-dark shadow-sm navbar-custom">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="https://geeksui.codescandy.com/assets/images/geeksuilogo.svg" alt="Geeks UI Logo">
+                </a>
+                
+                <!-- Navbar Toggler -->
+                <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto d-flex gap-3">
+                        <li class="nav-item"><a class="nav-link" href="#">Landings</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Doc</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Changelog</a></li>
+                    </ul>
+        
+                
+                    <div class="d-flex justify-content-start pd-0">
+                        <button class="btn btn-primary pd-0">
+                            <i class="fa-solid fa-cart-shopping me-2"></i>Buy Geeks
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container1 text-center">
+                <div>
+                      <h1>
+                        <span class="blue-text">Geeks UI</span>
+                        <span class="black-text">, premium<br>LMS / Education Template</span>
+                    </h1>
+                    <p class="para1">Geeks UI Premium LMS education template, perfect for online courses, colleges, schools, training hubs, and corporate<br>
+                        programs. Enhance your educational platform with seamless design and advanced features for modern learning.
+                    </p>
+                    <button class="btn2">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Buy Geeks
+                    </button>
+                    <button class="btn3">Preview 
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
+                
+                <div class= "mt-4">
+                    <span class="span1">
+                        <i class="fa-regular fa-star"></i>&nbsp;&nbsp;5.0
+                    </span>
+                    <span>&nbsp;&nbsp;&nbsp;over</span>
+                    <span class="fw-bolder">890+</span>
+                    <span>developers used GeeksUI.</span>
+                </div> 
+                
+                <div class="mt-5">
+                    <img src="image/Screenshot 2025-03-25 140931.png" class="img-fluid mx-auto d-block" alt="logos">
+                </div>
+            </div>
+        </section>
+
+    
 
     <!-- Landing pages -->
-    <section id="Landing-pages" class="container mb-5">
+    <section id="Landing-pages" class="container mb-5 mt-5">
         <!-- Allen work-->
         <div class="col-md-5 mb-5">
             <h2 class="fw-bold">Landing page</h2>
@@ -562,8 +620,44 @@
     
     <!-- Footer -->
     <footer id="footer">
-        <!-- Othniel work -->
+        <div class="containerfooter text-center py-3">
+
+            <div class="mt-4">
+                <span class="payspan">Pay once and Get Lifetime updates</span>
+            </div>
+    
+            <div class="mt-4">
+                <h1 class="display-4">Get started with Geeks UI Today</h1>
+                <h5 class="ps-3">Start building your LMS and Education website and web product in minutes.</h5>
+                <button class="footerbtn">Purchase Now &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+    
+         
+            <div class="socials d-flex flex-column flex-md-row justify-content-around align-items-center mt-5 text-center text-md-start">
+                <div class="mb-3 mb-md-0">
+                    <span>©2025 Geeks. Designed and coded by <span class="candyclr">codescandy</span></span>
+                </div>
+    
+                <div class="mb-5  mb-md-0">
+                    <i class="fa-brands fa-twitter me-3"></i>
+                    <i class="fa-brands fa-github me-3"></i>
+                    <i class="fa-brands fa-discord me-3"></i>
+                    <i class="fa-brands fa-youtube me-3"></i>
+                </div>
+    
+                <div class="d-flex flex-column flex-sm-row">
+                    <p class="me-sm-3">Documentation</p>
+                    <p class="me-sm-3">Support</p>
+                    <p class="me-sm-3">Changelog</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="fixedbtn">
+            <i class="fa-solid fa-cart-shopping me-2"></i>Buy Now
+        </button>
     </footer>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
