@@ -88,6 +88,10 @@ body {
    
 }
 
+.img-fluid {
+    margin-bottom: 150px;
+}
+
 .span1{
     border: 1px solid #cbd5e1;
     border-radius: 5px;
