@@ -8,6 +8,111 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=docs" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+    <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 8px; /* Space between icon and text */
+            font-size: 18px;
+        }
+        .icon {
+            color: #a685ff; /* Light purple */
+            font-size: 20px;
+        }
+
+        .btn-custom {
+            color: #a855f7; /* Purple text */
+            border: 1px solid #a855f7; /* Purple border */
+            background-color: transparent; /* Transparent background */
+            font-weight: lighter;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-custom:hover {
+            background-color: #a855f7; /* Purple background */
+            color: white; /* White text */
+        }
+
+        .text-purple {
+    color: #6a0dad !important; /* Purple color */
+}
+
+/* Background Color */
+.bg-custom {
+    background-color: #f2f5ff;; /* Adjust this to match the reference */
+    margin-left: 110px;
+    margin-right: 120px;
+}
+
+/* Section Padding */
+.section-padding {
+    padding: 100px 0;
+}
+
+/* Centering the Paragraph */
+.text-width {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Card Styling */
+.card-box {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Styling */
+.card-img {
+    width: 80px; /* Adjust as needed */
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #6366f1; /* Purple shade */
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #4f46e5; /* Darker Purple */
+}
+
+/* Remove Extra Spacing */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-img {
+    width: 120px;  /* Increase width */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+    </style>
+
+
+
 </head>
 <body>
     <!-- Navbar -->
@@ -211,13 +316,93 @@
         </div>
     </section>
     <!-- Students Dashboard-->
-    <section id="students-dashboard">
-        <!-- gift work -->
-    </section>
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-lg-6">
+                <img src="https://geeksui.codescandy.com/assets/images/student-dashboard.png" 
+                     alt="course dashboard" class="img-fluid w-100 rounded-3 h-100">
+            </div>
+    
+            <!-- Student Dashboard Content -->
+            <div class="col-lg-6 px-4 mt-5 h-100">
+                <h2 class="fw-bold">Student Dashboard</h2>
+                <p>The Student Dashboard UI provides an intuitive and organized interface for students to navigate their academic progress. Key sections include:</p>
+            
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Dashboard</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> My Learning</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> My Projects</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Quiz</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> My Quiz</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Quiz Single</div>
+                    </div>
+            
+                    <div class="col-md-4">
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Quiz Result</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> All Courses</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Learning Path</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Projects</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Quizzes</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Certificate</div>
+                    </div>
+            
+                    <div class="col-md-4">
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> My Certificate</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Subscription</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Billing Info</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Payment</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Invoice</div>
+                    </div>
+                </div>
+            
+                <div class="mt-4">
+                    <a href="#" class="btn btn-custom py-2">View Demo →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Instructor Dashboard -->
-    <section id="instructor-dashboard">
-        <!-- gift work -->
-    </section>
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <!-- Instructor Section -->
+            <div class="col-lg-6 px-4 mt-5">
+                <h2 class="fw-bold">Instructor Dashboard</h2>
+                <p>The Instructor Dashboard UI provides an organized interface for managing and tracking students progress, courses, and assessments. Key sections include:</p>
+    
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Dashboard</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> My Courses</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Reviews</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Earnings</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Orders</div>
+                    </div>
+    
+                    <div class="col-md-6">
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Students</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Payouts</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Quiz</div>
+                        <div class="feature-item my-1"><i class="bi bi-check-circle-fill icon"></i> Quiz Result</div>
+                    </div>
+                </div>
+    
+                <div class="mt-4">
+                    <a href="#" class="btn btn-custom py-2">View Demo →</a>
+                </div>
+            </div>
+    
+            <!-- Image Section -->
+            <div class="col-lg-6">
+                <img src="https://geeksui.codescandy.com/assets/images/instructor-dashboard.png" 
+                     alt="Instructor Dashboard" class="img-fluid w-100 rounded-3">
+            </div>
+        </div>
+    </div>
+    
+
     <!-- Dashboard Design -->
     <section id="dashboard-design" class="container mt-5">
         <!-- Allen work-->
@@ -264,14 +449,117 @@
             </div>
         </div>
     </section>
-    <!-- Ratings-->
-    <section id="Ratings">
-        <!-- gift work-->
-    </section>
+    <!-- Ratings Gift work-->
+    <div class="container text-center my-5">
+        <!-- First Text Section -->
+        <h2 class="fw-bold">Loved by <span class="text-purple">890+</span> a growing global <span class="text-purple">developers</span> community.</h2>
+    </div>
+    
+    <!-- Second Section: Reviews -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card p-3 shadow-sm">
+                    <h5 class="fw-bold">Amazing template and incredible fast support!!!</h5>
+                    <p>This template has been a great inclusion in a personal project I'm working on.</p>
+                    <p class="fw-bold">by Octavio</p>
+                    <div class="text-warning">★★★★★</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card p-3 shadow-sm">
+                    <h5 class="fw-bold">Excellent work quality and support</h5>
+                    <p>Very satisfied with my purchase. Your team helped a lot.</p>
+                    <p class="fw-bold">by Amir Javad</p>
+                    <div class="text-warning">★★★★★</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card p-3 shadow-sm">
+                    <h5 class="fw-bold">Complete Solution for Learning platforms</h5>
+                    <p>It's a wonderfully designed template and I love it.</p>
+                    <p class="fw-bold">by Rahul</p>
+                    <div class="text-warning">★★★★★</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card p-3 shadow-sm">
+                    <h5 class="fw-bold">A very good buy</h5>
+                    <p>Everything about it is beautiful and just what I was looking for.</p>
+                    <p class="fw-bold">by Dare</p>
+                    <div class="text-warning">★★★★★</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card p-3 shadow-sm">
+                    <h5 class="fw-bold">Great flexibility and perfect support</h5>
+                    <p>This item has everything you need for creating a modern learning-platform. Really delighted by many details and the overall architecture. Support was superfast and helpful as well.</p>
+                    <p class="fw-bold">by Bernhard</p>
+                    <div class="text-warning">★★★★★</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card p-3 shadow-sm">
+                    <h5 class="fw-bold">Good Theme</h5>
+                    <p>This theme is well designed and good quality. Recommended for anyone who need to build a quick LMS</p>
+                    <p class="fw-bold">by Nam</p>
+                    <div class="text-warning">★★★★★</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- move even faster -->
-    <section id="browse-all-components">
-        <!-- gift work -->
+    <section class="section-padding bg-custom rounded-3">
+        <div class="container-fluid text-center">
+            <h2 class="fw-bold">Move even faster with Geeks UI Components</h2>
+            <p class="text-muted text-width">
+                Geeks UI is a collection of beautiful, fully responsive UI components. You get access to 
+                template + components today, plus new components and pages every month until we're out of ideas.
+            </p>
+    
+            <!-- Component Cards -->
+            <div class="row justify-content-center mt-4 px-5">
+                <div class="col-md-2 col-6">
+                    <div class="p-3  rounded-3">
+                        <img src="https://geeksui.codescandy.com/assets/images/testimonialComponents.svg" class="card-img" alt="Component 1">
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="p-3 rounded-3">
+                        <img src="https://geeksui.codescandy.com/assets/images/cardComponents.svg" class="card-img" alt="Component 2">
+                    </div>
+                </div>
+                <div class="col-md-2 col-6 mt-3 mt-md-0">
+                    <div class="p-3 rounded-3">
+                        <img src="https://geeksui.codescandy.com/assets/images/profileComponents.svg" class="card-img" alt="Component 3">
+                    </div>
+                </div>
+                <div class="col-md-2 col-6 mt-3 mt-md-0">
+                    <div class="p-3 rounded-3">
+                        <img src="https://geeksui.codescandy.com/assets/images/featureComponents.svg" class="card-img" alt="Component 4">
+                    </div>
+                </div>
+                <div class="col-md-2 col-6 mt-3 mt-md-0">
+                    <div class="p-3 rounded-3">
+                        <img src="https://geeksui.codescandy.com/assets/images/formComponents.svg" class="card-img" alt="Component 5">
+                    </div>
+                </div>
+                <div class="col-md-2 col-6 mt-3 mt-md-0">
+                    <div class="p-3 rounded-3">
+                        <img src="https://geeksui.codescandy.com/assets/images/pricingComponents.svg" class="card-img" alt="Component 5">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Button -->
+            <div class="mt-5">
+                <a href="#" class="btn btn-primary px-4 py-3">Browse all components</a>
+            </div>
+        </div>
     </section>
+    
+    
     <!-- Footer -->
     <footer id="footer">
         <!-- Othniel work -->
